@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Jack Sparrow - Barbers & Hair Cutting</title>
+  <meta name="title" content="Jack Sparrow - The Barber">
+  <meta name="description" content="This is a barber html template made by Divejikan">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik:wght@300,400;700&display=swap"
+    rel="stylesheet">
+
+  <!--
+    flaticon
+  -->
+  <link rel="stylesheet" href="assets/css/flaticon.min.css">
+
+  <!--
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+
+  <style>
+    
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .header-top, .header-bottom {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      nav ul {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .about .contents {
+        flex-direction: column;
+      }
+
+      .footer-top {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .footer-link-box {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    @media (max-width: 576px) {
+ 
+      footer {
+        padding: 20px;
+      }
+    }
+  </style>
+
+</head>
+
+<body id="top">
+
+  <!--
+    - #HEADER
+  -->
+
+  <header class="header">
+
+    <div class="header-top">
+      <div class="container">
+
+        <ul class="header-top-list">
+
+          <li class="header-top-item">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+            <p class="item-title">Call:- </p>
+
+            <a href="tel:0262221005" class="item-link">026 222 1005</a>
+          </li>
+
+          <li class="header-top-item">
+            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+            <p class="item-title">Opening Hour :-</p>
+
+            <p class="open">Monday - Saturday :- 08.00 am - 09.00 pm   <<<<    >>>>> ( Closed on Sundays & Poyadays ) </p>
+          </li>
+
+          <li>
+            <ul class="social-list">
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+                </a>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="header-bottom" data-header>
+      <div class="container">
+
+        <a href="#" class="logo">
+        Jack Sparrow
+        </a>
+
+        <nav class="navbar container" data-navbar>
+          <ul class="navbar-list">
+
+            <li class="navbar-item">
+              <a href="./index.html" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="./about.html" class="navbar-link" data-nav-link>About</a>
+              
+            </li>
+
+            <li class="navbar-item">
+              <a href="./services.html" class="navbar-link" data-nav-link>Services</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="./pricing.html" class="navbar-link" data-nav-link>Pricing</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="./gallery.html" class="navbar-link" data-nav-link>Gallery</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="./appointment.html" class="navbar-link" data-nav-link>Appointment</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="./shop.html" class="navbar-link" data-nav-link>Shop</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="./contact.html" class="btn has-before">
+          <span class="span">Contact Us</span>
+
+          <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+        </a>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+  <main>
+    <article>
+
+      <!--HERO
+      -->
+
+      <section class="page-resize" id="home" aria-label="home"
+      >
+      <div class="container">
+
+        <h1 class="sub-heading">About</h1>
+
+
+      </div>
+    </section>
+
+    
+    <!-- About Start -->
+    <section class="section about" id="about" aria-label="about">
+    <div class="containers">
+
+      <section class="contents">
+          <div class="image-sections">
+            <img src="./assets/images/logo.jpg" alt="shop logo" class="logo-img">
+          </div>
+          <div class="text-sections">
+              <h1 class="d"><strong>Do You Know, Who We Are?</strong></h1>
+              <p class="pi">
+                From a small local shop to a well-known community brand,<strong>Jack Sparrow Barbershop </strong> was established out of a love for grooming.
+                By fusing conventional techniques with contemporary designs, we have continuously produced outstanding outcomes. 
+                We have established enduring partnerships and a solid reputation for excellence because to our dedication to excellent service and client fulfilment.
+              </p>
+              <h1 class="vm">Mission & Vision </h1>
+              <p class="pi">Our goal is to establish a friendly atmosphere where everyone feels comfortable and looks their best.
+                 We are committed to providing each person with individualised, high-quality grooming services that blend flair, expertise, and a personal touch. 
+                 Our long-term goal is to become the premier barbershop in the area, known for innovation, professionalism, and a commitment to making every visit exceptional.</p>
+              
+          </div>
+      </section>
+  </div>
+  <br>
+    
+  <div class="containers">
+    <section class="contents">
+        
+        <div class="text-sections">
+            <h1 class="d">Why Choose Us?</h1>
+            
+            <h3><b>Professionalism: </b></h3><p class="pi">Our barbers are highly trained and dedicated to their craft.</p>
+            <h3><b>Hygiene: </b></h3><p class="pi">We follow the highest standards of cleanliness to ensure your safety and comfort.</p>
+            <h3><b>Modern Tools & Techniques:</b></h3><p class="pi">state-of-the-art equipment and premium products to ensure you receive the best possible care.
+              </p>
+            <h3><b>Ambiance: </b></h3><p class="pi">Our shop is designed to provide a welcoming and relaxing environment, making every visit a pleasure.</p>
+            <h3><b>Customer-Centric Approach:</b></h3><p class="pi">Your satisfaction is our priority. We take the time to understand your needs and deliver results that exceed expectations.</p>
+
+
+              <br>
+
+        </div>
+        <div class="image-sections">
+          <img src="./assets/images/Interier.jpg" alt="recycle" class="logo-img">
+      </div>
+      <br>
+
+    </section>
+    <section class="contents">
+      <div class="text-sections">
+          <h1 class="d"><strong>What's Our Story..?</strong></h1>
+          <p class="pi">
+            Jack-Sparrow Barbershop was born out of a passion for bringing style, tradition, and exceptional service together under one roof. It all began with a simple idea: to create a space where men could enjoy the timeless art of barbering while embracing modern grooming trends.
+            The journey started with a vision to restore the barbershop’s role as more than just a place for haircuts. We wanted to build a hub where people from all walks of life could connect, relax, and leave with a renewed sense of confidence.
+            <br><br> Our founder, <strong>Mr.Richard Mendoza</strong>, grew up watching barbers not just cut hair but also build strong bonds with their clients. This inspired them to open Jack-Sparrow Barbershop, where every customer feels valued and appreciated.
+            first opened our doors in <strong>2005</strong>, we set out with a small team of talented barbers and a commitment to quality. Over the years, we’ve grown, but our core values remain the same: to provide exceptional grooming services while staying true to the traditions of barbering.
+          </p>
+      </div>
+      <div class="image-sections">
+        <img src="./assets/images/4.jpg" alt="shop logo" class="logo-img">
+      </div>
+  </section>
+
+  <br>
+</div>
+<br>
+
+
+<section style="background-image: url(./assets/images/team_bg.png)">
+  <div class="product-container">
+     <h1>Meet our Team</h1>
+     <div class="products">
+      <div class="product">
+        <img src="./assets/images/owner.jpg" alt="Product Image" class="magepro">
+        <strong><p>- Founder & Owner -</p></strong>
+          <p>Mr.Richard Mendoza</p>
+        <button class="order-button">Read more</button>
+     </div>
+         <div class="product">
+             <img src="./assets/images/masterbarber.jpg" alt="Product Image" class="magepro">
+             <strong><p>- Master Barber -</p></strong>
+               <p>Mr. James</p>
+             <button class="order-button">Read More</button>
+             
+         </div>
+
+         <div class="product">
+           <img src="./assets/images/beardexpert.jpg" alt="Product Image" class="magepro">
+           <strong><p>- Beard Specialist -</p></strong>
+             <p>Mr.Marcus</p>
+           <button class="order-button">Read More</button>
+       </div>
+
+       <div class="product">
+         <img src="./assets/images/stylist.jpg" alt="Product Image" class="magepro">
+         <strong><p>- Modern Styles Expert -</p></strong>
+           <p>Mr.Kenny</p>
+         <button class="order-button">Read More</button>
+     </div>
+
+     <div class="product">
+       <img src="./assets/images/consultant.png" alt="Product Image" class="magepro">
+       <strong><p>- Hair & Skin Consultant -</p></strong>
+         <p>Dr.Christina</p>
+       <button class="order-button">Read More</button>
+       
+   </div>
+   <div class="product">
+     <img src="./assets/images/facialcareexpert.jpg" alt="Product Image" class="magepro">
+     <strong><p>- Facial Care Expert -</p></strong>
+       <p>Mr.Victor</p>
+     <button class="order-button">Read More</button>
+
+   </div>
+ </div>
+ </div>
+</section>
+
+  
+  <!-- About End -->
+
+  <P>-</P>
+
+
+  
+    <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer has-bg-image" style="background-image: url('./assets/images/footer-bg.png')">
+    <div class="container">
+      <div class="footer-top">
+        <br>
+
+
+        <div class="footer-link-box">
+
+      
+        </div>
+
+   
+        <div class="footer-link-box">
+          <ul class="footer-list">
+            <li>
+              <h2 style="font-size: 45px; font-weight: bold; word-spacing: 6px; font-family: fantasy; color: rgb(186, 123, 8);">Jack Sparrow</h2>
+              
+              <br>
+              <img src="./assets/images/logo-footer.jpg" width="250" height="250">
+            </li>
+          </ul>
+
+
+          <ul class="footer-list">
+
+
+            <li>
+              <p class="footer-list-title">Quick Links</p>
+            </li>
+
+            <li>
+              <a href="./shop.html" class="footer-link has-before">Product Page</a>
+            </li>
+
+            <li>
+              <a href="./gallery.html" class="footer-link has-before">Gallery</a>
+            </li>
+
+
+            <li>
+              <a href="./services.html" class="footer-link has-before">Our Services</a>
+            </li>
+
+            <li>
+              <a href="./about.html" class="footer-link has-before">Meet Our Team</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link has-before">Our Portfolio</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link has-before">Need A Career?</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link has-before">News & Blog</a>
+            </li>
+
+          </ul>
+
+
+
+          <ul class="footer-list">
+
+            <li>
+              <ul class="footer-list">
+
+                <li>
+                  <p class="footer-list-title">Contact Us</p>
+                </li>
+    
+                <li class="footer-list-item">
+                  <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+    
+                  <address class="contact-link">
+                    No. 74/47 ,3rd Miles post, Trincomalee , Sri Lanka.
+                  </address>
+                </li>
+    
+                <li class="footer-list-item">
+                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+    
+                  <a href="tel:+0123456789" class="contact-link">026 2221005</a>
+                </li>
+    
+                <li class="footer-list-item">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+    
+                  <span class="contact-link">Monday - Saturday, 08.00 am - 09.00 pm</span>
+                </li>
+    
+                <li class="footer-list-item">
+                  <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+    
+                  <a href="mailto:support@gmail.com" class="contact-link">jacksparrowbarber@gmail.com</a>
+                </li>
+    
+              </ul>
+    
+            </li>
+          </ul>
+
+          <ul>
+            <div class="map">
+              <p class="footer-list-title">map</p>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.9550089967306!2d81.21522297449508!3d8.600318295553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afbbd00126fdef9%3A0x489f1765361dc48b!2sDiveji&#39;s%20Home!5e0!3m2!1sta!2slk!4v1732952162701!5m2!1sta!2slk" 
+              width="300" height="180" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+            </div>
+
+          </ul>
+
+          </ul>
+
+          
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; 2024 <a href="#" class="copyright-link">Yuvarajah Divejikan</a>. All Rights Reserved.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

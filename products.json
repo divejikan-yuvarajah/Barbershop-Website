@@ -1,0 +1,96 @@
+[
+    {
+        "id": 1,
+        "name":"Beard Oil (80ml)",
+        "price": 399.00,
+        "image": "./assets/images/Beardoil.jpg"
+    },
+    {
+        "id": 2,
+        "name":" Hair Pomade (80 g)",
+        "price": 349,
+        "image": "./assets/images/Hairpomade.jpg"
+    },
+    {
+        "id": 3,
+        "name":" Shaving Cream (150 ml)",
+        "price": 499,
+        "image": "./assets/images/Shaving.jpg"
+    },
+    {
+        "id": 4,
+        "name":" Face Cleanser (300 ml)",
+        "price": 549,
+        "image": "./assets/images/FacialCleanser.jpg"
+    },
+    {
+        "id": 5,
+        "name":" Face Scrub (100 g)",
+        "price": 449,
+        "image": "./assets/images/Scrub.png"
+    },
+    {
+        "id": 6,
+        "name":" Moisturizer (100 ml)",
+        "price": 299,
+        "image": "./assets/images/Moisture.jpg"
+    },
+    {
+        "id": 7,
+        "name":"Face Masks",
+        "price": 129,
+        "image": "./assets/images/Facemask.jpg"
+    },
+    {
+        "id": 8,
+        "name":" Sunscream (120 ml)",
+        "price": 499,
+        "image": "./assets/images/Sun.jpg"
+    },
+    {
+        "id": 9,
+        "name":" Facial Toner  (100 ml)",
+        "price": 299,
+        "image": "./assets/images/Torner.png"
+    },
+    {
+        "id": 10,
+        "name":"Face Wipees (Combo)",
+        "price": 149,
+        "image": "./assets/images/Wipes.jpg"
+    },
+    {
+        "id": 11,
+        "name":" Body Lotion (400 ml)",
+        "price": 449,
+        "image": "./assets/images/Bodylotion.jpg"
+    },
+    {
+        "id": 12,
+        "name":"Hair Oil (150 ml)",
+        "price": 349,
+        "image": "./assets/images/Oil.jpg"
+    },
+    {
+        "id": 13,
+        "name":"Hair Shampoo",
+        "price": 449,
+        "image": "./assets/images/Hair Shampoo.png"
+    },
+    {
+        "id": 14,
+        "name":"Hair Conditioner",
+        "price": 349,
+        "image": "./assets/images/Hair conditioner.png"
+    },
+    {
+        "id": 15,
+        "name":"Hair Spray",
+        "price": 399,
+        "image": "./assets/images/Hair Spray.jpg"
+    }
+
+
+
+]
+

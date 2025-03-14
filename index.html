@@ -1,0 +1,1411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Jack Sparrow - Barbers & Hair Cutting</title>
+  <meta name="title" content="Jack Sparrow - The Barber">
+  <meta name="description" content="This is a barber html template made by Divejikan">
+
+  
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Rubik:wght@300,400;700&display=swap"
+    rel="stylesheet">
+
+  <!--
+    flaticon
+  -->
+  <link rel="stylesheet" href="assets/css/flaticon.min.css">
+
+  <!--
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+<!--Responsive Design -->
+<style>
+  .video-container {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 10px;
+
+  }
+
+  .video iframe {
+      width: 100%;
+      height: auto;
+  }
+
+  @media (max-width:768px) {
+      .video-container {
+          grid-template-columns: 1fr;
+      }
+  }
+
+  
+
+  @media (max-width: 768px) {
+
+    .footer-top {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero-title {
+      font-size: 35px;
+    }
+
+    .hero-text {
+      font-size: 18px;
+    }
+
+    .footer-link-box {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 576px) {
+    footer {
+      padding: 20px;
+    }
+  }
+
+  @media (max-width: 576px) {
+
+footer {
+ padding: 20px;
+}
+}
+
+@media (max-width: 768px) {
+    .header-top, .header-bottom {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+
+  .social-list {
+    display: none;
+  }
+
+
+
+    .about .contents {
+      flex-direction: column;
+    }
+
+    .footer-top {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+
+
+    .footer-link-box {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+
+  </style>
+
+</head>
+
+<body id="top">
+
+  <!--
+    - #HEADER
+  -->
+
+  <header class="header">
+
+    <div class="header-top">
+      <div class="container">
+
+       
+            <h5 style="color: rgb(150, 98, 13); text-align: center; font-size: 20px; font-weight:bold;" id="greeting"></h5>
+ 
+      </div>
+    </div>
+
+    <div class="header-bottom" data-header>
+      <div class="container">
+
+        <a href="#" class="logo" style="font-weight: bold;">
+        Jack Sparrow
+          
+        </a>
+
+        <nav class="navbar container" data-navbar>
+          <ul class="navbar-list">
+
+            <li class="navbar-item">
+              <a href="./index.html" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="./about.html" class="navbar-link" data-nav-link>About</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="./services.html" class="navbar-link" data-nav-link>Services</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="./pricing.html" class="navbar-link" data-nav-link>Pricing</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="./gallery.html" class="navbar-link" data-nav-link>Gallery</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="./appointment.html" class="navbar-link" data-nav-link>Appointment</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="./shop.html" class="navbar-link" data-nav-link>Shop</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <a href="./contact.html" class="btn has-before">
+          <span class="span">Contact Us</span>
+
+          <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+        </a>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+  <main>
+    <article>
+
+      <!--HERO
+      -->
+
+      <section class="section hero has-before has-bg-images" id="home" aria-label="home"
+        style="background-image: url(./assets/images/Home-bg.jpg)">
+        <div class="container">
+
+
+          <h1 class="h1 hero-title" style="color: rgb(255, 255, 255);">Mastering the Art of Grooming</h1>
+
+
+          <p class="hero-text" style="color: hsl(0, 0%, 100%);">
+            "experience top-notch grooming with our expert barbers. from precision haircuts and beard styling to luxurious hot towel shaves and 
+            personalizes hair care consultations, We're here to keep you looking sharp and confident......"
+          </p>
+
+          <a href="./services.html" class="btn has-before">
+            <span class="span">Explore Our Services</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+      </section>
+
+
+      
+
+    
+    <!-- About Start -->
+    <section class="section about" id="about" aria-label="about">
+      <div class="containers">
+  
+        <section class="contents">
+            <div class="image-sections">
+              <img src="./assets/images/logo.jpg" alt="shop logo" class="logo-img">
+            </div>
+            <div class="text-sections">
+                <h1 class="d"><strong>Do You Know, Who We Are?</strong></h1>
+                <p class="pi">
+                  From a small local shop to a well-known community brand,<strong>Jack Sparrow Barbershop </strong> was established out of a love for grooming.
+                  By fusing conventional techniques with contemporary designs, we have continuously produced outstanding outcomes. 
+                  We have established enduring partnerships and a solid reputation for excellence because to our dedication to excellent service and client fulfilment.
+                </p>
+                <h1 class="vm">Mission & Vision </h1>
+                <p class="pi">Our goal is to establish a friendly atmosphere where everyone feels comfortable and looks their best.
+                   We are committed to providing each person with individualised, high-quality grooming services that blend flair, expertise, and a personal touch. 
+                   Our long-term goal is to become the premier barbershop in the area, known for innovation, professionalism, and a commitment to making every visit exceptional.</p>
+                
+            </div>
+        </section>
+    </div>
+      
+    <div class="containers">
+      <section class="contents">
+          
+          <div class="text-sections">
+              <h1 class="d">Why Choose Us?</h1>
+              
+              <h3><b>Professionalism: </b></h3><p class="pi">Our barbers are highly trained and dedicated to their craft.</p>
+              <h3><b>Hygiene: </b></h3><p class="pi">We follow the highest standards of cleanliness to ensure your safety and comfort.</p>
+              <h3><b>Modern Tools & Techniques:</b></h3><p class="pi">state-of-the-art equipment and premium products to ensure you receive the best possible care.
+                </p>
+              <h3><b>Ambiance: </b></h3><p class="pi">Our shop is designed to provide a welcoming and relaxing environment, making every visit a pleasure.</p>
+              <h3><b>Customer-Centric Approach:</b></h3><p class="pi">Your satisfaction is our priority. We take the time to understand your needs and deliver results that exceed expectations.</p>
+  
+  
+                <br>
+  
+          </div>
+          <div class="image-sections">
+            <img src="./assets/images/Interier.jpg" alt="recycle" class="logo-img">
+        </div>
+  
+      </section>
+      <section class="contents">
+
+        <div class="text-sections">
+            <h1 class="d"><strong>What's Our Story..?</strong></h1>
+            <p class="pi">
+              Jack-Sparrow Barbershop was born out of a passion for bringing style, tradition, and exceptional service together under one roof. It all began with a simple idea: to create a space where men could enjoy the timeless art of barbering while embracing modern grooming trends.
+              The journey started with a vision to restore the barbershop’s role as more than just a place for haircuts. We wanted to build a hub where people from all walks of life could connect, relax, and leave with a renewed sense of confidence.
+              <br><br> Our founder, <strong>Mr.Richard Mendoza</strong>, grew up watching barbers not just cut hair but also build strong bonds with their clients. This inspired them to open Jack-Sparrow Barbershop, where every customer feels valued and appreciated.
+              first opened our doors in <strong>2005</strong>, we set out with a small team of talented barbers and a commitment to quality. Over the years, we’ve grown, but our core values remain the same: to provide exceptional grooming services while staying true to the traditions of barbering.
+            </p>
+        </div>
+        <div class="image-sections">
+          <img src="./assets/images/4.jpg" alt="shop logo" class="logo-img">
+        </div>
+    </section>
+  
+    <br>
+  </div>
+  <br>
+
+  
+<section style="background-image: url(./assets/images/team_bg.png)">
+  <div class="product-container">
+     <h1>Meet our Team</h1>
+     <div class="products">
+      <div class="product">
+        <img src="./assets/images/owner.jpg" alt="Product Image" class="magepro">
+        <strong><p>- Founder & Owner -</p></strong>
+          <p>Mr.Richard Mendoza</p>
+        <button class="order-button">Read more</button>
+     </div>
+         <div class="product">
+             <img src="./assets/images/masterbarber.jpg" alt="Product Image" class="magepro">
+             <strong><p>- Master Barber -</p></strong>
+               <p>Mr. James</p>
+             <button class="order-button">Read More</button>
+             
+         </div>
+
+         <div class="product">
+           <img src="./assets/images/beardexpert.jpg" alt="Product Image" class="magepro">
+           <strong><p>- Beard Specialist -</p></strong>
+             <p>Mr.Marcus</p>
+           <button class="order-button">Read More</button>
+       </div>
+
+       <div class="product">
+         <img src="./assets/images/stylist.jpg" alt="Product Image" class="magepro">
+         <strong><p>- Modern Styles Expert -</p></strong>
+           <p>Mr.Kenny</p>
+         <button class="order-button">Read More</button>
+     </div>
+
+     <div class="product">
+       <img src="./assets/images/consultant.png" alt="Product Image" class="magepro">
+       <strong><p>- Hair & Skin Consultant -</p></strong>
+         <p>Dr.Christina</p>
+       <button class="order-button">Read More</button>
+       
+   </div>
+   <div class="product">
+     <img src="./assets/images/facialcareexpert.jpg" alt="Product Image" class="magepro">
+     <strong><p>- Facial Care Expert -</p></strong>
+       <p>Mr.Victor</p>
+     <button class="order-button">Read More</button>
+     
+ </div>
+
+
+     </div>
+ </div>
+</section>
+  <!-- About End -->
+      
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="services" aria-label="services">
+        <div class="container">
+
+          <h2 style="font-size: 70px; color: black;"><strong>We Provide</strong></h2>
+
+          <p style="font-size: 20px; color: rgb(67, 66, 66);" >
+            <strong>
+            At Jack Sparrow Barbershop , we provide a full range of grooming services tailored to help you look and feel your best. 
+            From classic cuts to modern styles, our skilled barbers offer expert service in a relaxed, welcoming atmosphere. Explore our services and book your appointment today.
+          </strong>
+          </p>
+          <br>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <i class="flaticon-salon"></i>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Stylist Hair Cutting (Adults & Kids)</a>
+                </h3>
+
+                <p class="card-text">
+                  Our expert barbers provide personalized cuts for adults and kids, blending classic techniques with modern styles to suit every preference and occasion.
+                </p>
+
+                <a href="#" class="card-btn" aria-label="more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <i class="flaticon-shampoo"></i>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Hair Washing</a>
+                </h3>
+
+                <p class="card-text">
+                  Enjoy a refreshing wash that cleanses and revitalizes your hair, leaving it feeling fresh, light, and prepped for styling.
+                </p>
+
+                <a href="#" class="card-btn" aria-label="more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <i class="flaticon-hot-stone"></i>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Body Treatments (Body Massage)</a>
+                </h3>
+
+                <p class="card-text">
+                  Relax and rejuvenate with our professional body massage services.
+                   Designed to relieve tension and promote overall wellness, our massages help you unwind and leave feeling refreshed and revitalized.
+                </p>
+
+                <a href="#" class="card-btn" aria-label="more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <i class="flaticon-treatment"></i>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Beauty & Spa</a>
+                </h3>
+
+                <p class="card-text">
+                  Treat yourself to a full range of beauty and spa services, from facials to massages, ensuring you leave feeling pampered and recharged.
+                </p>
+
+                <a href="#" class="card-btn" aria-label="more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <i class="flaticon-shaving-razor"></i>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Stylist Beard Shaving</a>
+                </h3>
+
+                <p class="card-text">
+                  Achieve a precise, smooth shave or beard trim with our skilled barbers, who use premium tools for a refined look every time.
+                </p>
+
+                <a href="#" class="card-btn" aria-label="more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <i class="flaticon-hair-dye"></i>
+                </div>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Hair Coloring</a>
+                </h3>
+
+                <p class="card-text">
+                  Add a new dimension to your style with our professional hair coloring services, from subtle highlights to bold, vibrant shades.
+                </p>
+
+                <a href="#" class="card-btn" aria-label="more">
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+              </div>
+            </li>
+
+          </u>
+
+        </div>
+      </section>
+
+      <div class="containers">
+        <section class="contents">
+          <div class="image-sections">
+            <img src="./assets/images/acadamy.jpg" alt="recycle" class="logo-img">
+        </div>
+  
+            
+            <div class="text-sections">
+                <h1 class="d">" From Beginner to Pro : Your Barbering Journey "</h1>
+                <h2>The Jack-Sparrow Acadamy</h2>
+                <br>
+                
+                <p class="pi">At our Barber Academy, we aim to inspire and nurture the next wave of professional barbers. Whether you're just starting or looking to enhance your skills, our academy offers comprehensive training programs covering everything from classic haircut techniques to modern styling, beard grooming, and advanced grooming trends.<br>
+                  <br>Our courses combine hands-on practice, theoretical knowledge, and mentorship from experienced barbers to ensure you gain the confidence and expertise to excel in the industry. With state-of-the-art facilities and a focus on real-world experience, we prepare you for a successful career in barbering.
+                  Join us to master the craft, learn the latest trends, and turn your passion into a profession!</p>
+                  
+                  <br>
+                  <a href="#" class="btn has-before">
+                    <span class="span"><strong>Join Now</strong></span>
+          
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+            </div>
+            
+        </section>
+        </section>
+        
+    </div>
+    <br>
+
+
+
+  
+
+      <!-- 
+        - #PRICING
+      -->
+
+      <section class="section pricing has-bg-image has-before" id="pricing" aria-label="pricing"
+        style="background-image: url('./assets/images/pricing-bg.jpg')">
+        <div class="container">
+
+          <h2 class="h2 section-title text-center">Awesome Pricing Plan</h2>
+
+          <p class="section-text"style="font-size: 18px; color: #80701;">
+            At Jack Sparrow Barbershop, we believe in offering top-quality grooming services at competitive prices. 
+            From haircuts to spa treatments, our transparent pricing ensures you know exactly what to expect. 
+            Browse our service options below to find the perfect fit for your style and budget.
+          </p>
+
+          <div class="pricing-tab-container">
+
+            <ul class="tab-filter">
+
+              <li>
+                <button class="filter-btn active" data-filter-btn="all">
+                  <div class="btn-icon">
+                    <i class="flaticon-beauty-salon" aria-hidden="true"></i>
+                  </div>
+
+                  <p class="btn-text">All Pricing</p>
+                </button>
+              </li>
+
+              <li>
+                <button class="filter-btn" data-filter-btn="beauty-spa">
+                  <div class="btn-icon">
+                    <i class="flaticon-relax" aria-hidden="true"></i>
+                  </div>
+
+                  <p class="btn-text">Beauty & Spa</p>
+                </button>
+              </li>
+
+              <li>
+                <button class="filter-btn" data-filter-btn="body-treatments">
+                  <div class="btn-icon">
+                    <i class="flaticon-massage" aria-hidden="true"></i>
+                  </div>
+
+                  <p class="btn-text">Body Treatments</p>
+                </button>
+              </li>
+
+              <li>
+                <button class="filter-btn" data-filter-btn="face-washing">
+                  <div class="btn-icon">
+                    <i class="flaticon-spa" aria-hidden="true"></i>
+                  </div>
+
+                  <p class="btn-text">Hair Cutting</p>
+                </button>
+              </li>
+
+              <li>
+                <button class="filter-btn" data-filter-btn="meditations">
+                  <div class="btn-icon">
+                    <i class="flaticon-yoga" aria-hidden="true"></i>
+                  </div>
+
+                  <p class="btn-text">Kids</p>
+                </button>
+              </li>
+
+              <li>
+                <button class="filter-btn" data-filter-btn="shaving">
+                  <div class="btn-icon">
+                    <i class="flaticon-razor-blade" aria-hidden="true"></i>
+                  </div>
+
+                  <p class="btn-text">Shaving</p>
+                </button>
+              </li>
+
+            </ul>
+
+            <ul class="grid-list">
+
+              <li data-filter="face-washing">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/pricing-1.jpg" width="90" height="90" alt="Hair Cutting & Fitting"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Hair Cutting</h3>
+
+                    <p class="card-text"> Expertly styled cuts tailored to your preferences.</p>
+                  </div>
+
+                  <data class="card-price" value="89"><strong>LKR.499/=</strong></data>
+
+                </div>
+              </li>
+
+              <li data-filter="shaving">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/pricing-2.jpg" width="90" height="90" alt="Shaving & Facial"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Beard Shaving</h3>
+
+                    <p class="card-text">Precision shaving and beard styling for a polished look.</p>
+                  </div>
+
+                  <data class="card-price" value="45"><strong>LKR.299/=</strong></data>
+
+                </div>
+              </li>
+
+              <li data-filter="face-washing">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/pricing-3.jpg" width="90" height="90" alt="Hair Color & Wash"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Hair Color</h3>
+
+                    <p class="card-text">Transform your look with vibrant, high-quality hair colours.</p>
+                  </div>
+
+                  <data class="card-price" value="35"><strong>LKR.399/=</strong></data>
+
+                </div>
+              </li>
+
+              <li data-filter="body-treatments">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/pricing-4.jpg" width="90" height="90" alt="Body Massage"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Body Massage</h3>
+
+                    <p class="card-text">With the help of our relaxing, professional body massage services, rest and refresh.</p>
+                  </div>
+
+                  <data class="card-price" value="56"><strong>LKR.949/=</strong></data>
+
+                </div>
+              </li>
+
+              <li data-filter="beauty-spa">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/pricing-5.jpg" width="90" height="90" alt="Beauty & Spa"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Beauty & Spa</h3>
+
+                    <p class="card-text">Pamper yourself with rejuvenating beauty and spa treatments</p>
+                  </div>
+
+                  <data class="card-price" value="27"><strong>LKR.999/=</strong></data>
+
+                </div>
+              </li>
+
+              <li data-filter="beauty-spa">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/pricing-6.jpg" width="90" height="90" alt="Facial & Face Wash"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Facial & Face Wash</h3>
+
+                    <p class="card-text"> Refresh and revitalize your skin with our facial treatments.</p>
+                  </div>
+
+                  <data class="card-price" value="63"><strong>LKR.1999/=</strong></data>
+
+                </div>
+              </li>
+
+              <li data-filter="face-washing">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/wash.png" width="90" height="90" alt="Backbone Massage"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Hair Washing</h3>
+
+                    <p class="card-text">Relax with a soothing, deep-cleansing hair wash.</p>
+                  </div>
+
+                  <data class="card-price" value="43"><strong>LKR.99/=</strong></data>
+
+                </div>
+              </li>
+
+              <li data-filter="face-washing">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/staing.png" width="90" height="90" alt="Backbone Massage"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Hair Straightening </h3>
+
+                    <p class="card-text">Get smooth,sleek and frizz-free hair with our expert service.</p>
+                  </div>
+
+                  <data class="card-price" value="43"><strong>LKR.1499/=</strong></data>
+
+                </div>
+              </li>
+
+
+              <li data-filter="meditations">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/kids.png" width="90" height="90" alt="Meditation & Massage"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Kids Hair Cutting</h3>
+
+                    <p class="card-text">Gentle and fun haircuts for little ones.
+                    </p>
+                  </div>
+
+                  <data class="card-price" value="74"><strong>LKR.249/=</strong></data>
+
+                </div>
+              </li>
+
+              
+              <li data-filter="face-washing">
+                <div class="pricing-card">
+
+                  <figure class="card-banner img-holder" style="--width: 90; --height: 90;">
+                    <img src="./assets/images/pricing-10.png" width="90" height="90" alt="Meditation & Massage"
+                      class="img-cover">
+                  </figure>
+
+                  <div class="wrapper">
+                    <h3 class="h3 card-title">Hair-care Consultations</h3>
+
+                    <p class="card-text">Expert advice on hairstyles and routines for healthy, manageable hair
+                    </p>
+                  </div>
+
+                  <data class="card-price" value="74"><strong>LKR.499/=</strong></data>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #GALLERY
+      -->
+
+      <section class="section gallery" id="gallery" aria-label="photo gallery" style="background-image: url(./assets/images/a1\ \(3\).jpg)">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <h2 style="font-size: 60px; color: black; font-weight: bold;"><strong>"Crafting Style : Video Showcase."</strong></h2>
+              <p></p>
+              <br>
+
+              <p style="font-size: 20px; color: rgb(234, 222, 222);">
+                <strong >"Welcome to our gallery, where style meets craftsmanship....!
+                  Explore the videos showcasing the skill, passion, and precision our barbers bring to each cut, shave, and style.
+                   Get an inside look at the barbershop experience and see how we transform each visit into a personalized art form."</strong>
+              </p>
+            </div>
+
+            <a href="#" class="btn has-before">
+              <span class="span">Explore More..!</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+          <div class="video-container">
+
+
+            <div class="video">
+                <video width="422" height="550" autoplay muted loop>
+                    <source src="./assets/videos/vid1.mp4" type="video/mp4" class="img-cover">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="video">
+                <video width="422" height="550" autoplay muted loop>
+                    <source src="./assets/videos/vid2.mp4" type="video/mp4" class="img-cover">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="video">
+                <video width="422" height="550" autoplay muted loop>
+                    <source src="./assets/videos/vid3.mp4" type="video/mp4" class="img-cover">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="video">
+                <video width="422" height="550" autoplay muted loop>
+                    <source src="./assets/videos/vid4.mp4" type="video/mp4" class="img-cover">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="video">
+                <video width="422" height="550" autoplay muted loop>
+                    <source src="./assets/videos/vid5.mp4" type="video/mp4" class="img-cover">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="video">
+                <video width="422" height="550" autoplay muted loop>
+                    <source src="./assets/videos/vid6.mp4" type="video/mp4" class="img-cover">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="video">
+                <video width="422" height="550" autoplay muted loop>
+                    <source src="./assets/videos/vid7.mp4" type="video/mp4" class="img-cover">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="video">
+                <video width="422" height="550" autoplay muted loop>
+                    <source src="./assets/videos/vid8.mp4" type="video/mp4" class="img-cover">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="video">
+                <video width="422" height="550" autoplay muted loop>
+                    <source src="./assets/videos/vid9.mp4" type="video/mp4" class="img-cover">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="video">
+              <video width="422" height="550" autoplay muted loop>
+                  <source src="./assets/videos/vid10.mp4" type="video/mp4" class="img-cover">
+                  Your browser does not support the video tag.
+              </video>
+          </div>
+
+          <div class="video">
+            <video width="422" height="550" autoplay muted loop>
+                <source src="./assets/videos/vid11.mp4" type="video/mp4" class="img-cover">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="video">
+          <video width="422" height="550" autoplay muted loop>
+              <source src="./assets/videos/vid12.mp4" type="video/mp4" class="img-cover">
+              Your browser does not support the video tag.
+          </video>
+      </div>
+
+      <div class="video">
+        <video width="422" height="550" autoplay muted loop>
+            <source src="./assets/videos/vid13.mp4" type="video/mp4" class="img-cover">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="video">
+      <video width="422" height="550" autoplay muted loop>
+          <source src="./assets/videos/vid14.mp4" type="video/mp4" class="img-cover">
+          Your browser does not support the video tag.
+      </video>
+  </div>
+
+  <div class="video">
+    <video width="422" height="550" autoplay muted loop>
+        <source src="./assets/videos/vid15.mp4" type="video/mp4" class="img-cover">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+          </div>
+
+
+        </div>
+    </section>
+
+    
+      <!-- 
+        - #APPOINTMENT
+      -->
+
+      <section class="section appoin" id="appointment" aria-label="appointment">
+        <div class="container">
+
+          <div class="appoin-card">
+
+            <figure class="card-banner img-holder" style="--width: 250; --height: 774;">
+              <img src="./assets/images/appoin-banner-1.jpg" width="250" height="774" loading="lazy" alt=""
+                class="img-cover">
+            </figure>
+
+            <div class="card-content">
+
+              <h2 style="color: black;font-size: 60px;">Make Appointment</h2>
+              <P class="section-text"style="font-size: 20px; color: rgb(234, 222, 222);">
+                "Ready for a fresh look?" 
+                Book your appointment with ease! Select your preferred barber, choose your service, and pick a time that works for you. 
+                We look forward to giving you the personalized grooming experience you deserve.....!
+              </p>
+
+              <form action="" class="appoin-form">
+
+                <div class="input-wrapper">
+                  <input type="text" name="name" placeholder="Your Full Name" required class="input-field">
+
+                  <input type="email" name="email_address" placeholder="Email Address" required class="input-field">
+                </div>
+
+                <div class="input-wrapper">
+                  <input type="text" name="phone" placeholder="Phone Number" required class="input-field">
+
+                  <select name="category" class="input-field">
+
+                    <option value="Select category">Select category</option>
+                    <option value="Hair Cutting">Hair Cutting</option>
+                    <option value="Beard Shaving">Beard Shaving</option>
+                    <option value="Hair Coloring">Hair Coloring</option>
+                    <option value="Kids Hair Cutting">Kids Hair Cutting</option>
+                    <option value="Beauty & spa">Beauty & spa</option>
+                    <option value="Body massage">Body massage</option>
+                    <option value="Facial & Face wash">Facial & Face wash</option>
+                    <option value="Hair Washing">Hair Washing</option>
+                    <option value="Hair Straightening">Hair Straightening</option>
+                    <option value="Hair-care consultations">Hair-care consultations</option>
+
+                  </select>
+                </div>
+
+                <input type="date" name="date" required class="input-field date">
+
+                <textarea name="message" placeholder="Write Message" required class="input-field"></textarea>
+
+                <button type="submit" class="form-btn">
+                  <span class="span">Appointment Now</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+
+              </form>
+
+            </div>
+
+            <figure class="card-banner img-holder" style="--width: 250; --height: 774;">
+              <img src="./assets/images/appoin-banner-2.jpg" width="250" height="774" loading="lazy" alt=""
+                class="img-cover">
+            </figure>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+  <!---payment start-->
+
+  
+    
+  <div class="contaiiners">
+
+    <form action="">
+
+        <div class="rows">
+
+            <div class="coll">
+
+                <h2 class="title"><strong>Customer Details</strong></h2>
+
+                <div class="inputBoxs">
+                    <span style="font-weight: bold; color: #080808;">Full Name :</span>
+                    <input type="text" placeholder="Divejikan">
+                </div>
+                <div class="inputBoxs">
+                  <span style="font-weight: bold; color: #080808;">E-Mail :</span>
+                    <input type="email" placeholder="dive@example.com">
+                </div>
+                <div class="inputBoxs">
+                  <span style="font-weight: bold; color: #080808;">Billing Address :</span>
+                    <input type="text" placeholder="No.23/5,Main Street,Trincomalee">
+                </div>
+                <div class="inputBoxs">
+                  <span style="font-weight: bold; color: #080808;">City :</span>
+                    <input type="text" placeholder="Trincomalee">
+                </div>
+
+                <div class="flex">
+                    <div class="inputBoxs">
+                      <span style="font-weight: bold; color: #080808;">Province :</span>
+                        <input type="text" placeholder="Eastern">
+                    </div>
+                    <div class="inputBoxs">
+                      <span style="font-weight: bold; color: #080808;">Zip Code :</span>
+                        <input type="text" placeholder="31000">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="coll">
+
+                <h2 class="title"><strong>Payment</strong></h2>
+
+                <div class="inputBoxs">
+                  <span style="font-weight: bold; color: #080808;">Cards Accepted :</span>
+                    <img src="./assets/images/card_img.png" alt="">
+                </div>
+                <div class="inputBoxs">
+                  <span style="font-weight: bold; color: #080808;">Name on Card :</span>
+                    <input type="text" placeholder="Dive" >
+                </div>
+                <div class="inputBoxs">
+                    <span>Card Number :</span><span style="font-weight: bold; color: #080808;">Card Number :</span>
+                    <input type="number" placeholder="1234-1234-1234-1234" >
+                </div>
+                <div class="inputBoxs">
+                  <span style="font-weight: bold; color: #080808;">Expiry Month :</span>
+                    <input type="text" placeholder="November" >
+                </div>
+
+                <div class="flex">
+                    <div class="inputBoxs">
+                      <span style="font-weight: bold; color: #080808;">Expiry Year :</span>
+                        <input type="number" placeholder="2026" >
+                    </div>
+                    <div class="inputBoxs">
+                      <span style="font-weight: bold; color: #080808;">CVC :</span>
+                        <input type="text" placeholder="123" >
+                    </div>
+                </div>
+
+            </div>
+    
+        </div>
+
+        <input type="submiit" value="Proceed To Checkout" class="submiit-btn">
+
+    </form>
+
+</div>
+<br>
+
+
+<!--Payment end-->
+
+
+  <!--contact start-->
+
+
+  <section class="contact-section">
+    <div class="contact-container">
+        <div class="contact-left">
+            <ul class="footer-list">
+
+                <li>
+                  <p class="footer-list-title" style="color:  rgb(255, 255, 255);;"><h2>Contact Us</h2></p>
+                </li>
+    
+                <li class="footer-list-item">
+                  <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+    
+                  <address class="contact-link" style="color: rgb(255, 255, 255);">
+                    <strong>No. 74/47 ,3rd Miles post, Uppuveli, Trincomalee , Sri Lanka.</strong>
+                  </address>
+                </li>
+                <br>
+    
+                <li class="footer-list-item">
+                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+    
+                  <a href="tel:+0123456789" class="contact-link" style="color:  rgb(255, 255, 255);;" ><strong>026-2221005</strong></a>
+                </li>
+                <br>
+    
+                <li class="footer-list-item">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+    
+                  <span class="contact-link" style="color:  rgb(255, 255, 255);;"><strong>Monday - Saturday, 08.00 am - 09.00 pm</strong></span>
+                </li>
+                <br>
+    
+                <li class="footer-list-item">
+                  <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+    
+                  <a href="mailto:support@gmail.com" class="contact-link" style="color:  rgb(255, 255, 255);;"><strong>jacksparrowbarber@gmail.com</strong></a>
+                </li>
+    
+              </ul>
+              <p></p>
+
+              <h5 class="text-white" style="color:  rgb(255, 255, 255);;"><h2>Follow Us</h2></h5>
+              <br>
+              <div class="social-icon">
+                <a href="#"><img src="./assets/images/twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="./assets/images/facebook (1).png" alt="Facebook"></a>
+                <a href="#"><img src="./assets/images/youtube.png" alt="YouTube"></a>
+                <a href="#"><img src="./assets/images/insta.png" alt="Instagram"></a>
+            </div>
+        </div>
+        <div class="contact-right">
+            <h4><strong>The Contact page is your direct line to us, designed to make reaching out effortless.
+              Whether you have questions, need assistance, or want to share feedback, this is where conversations begin.
+              Let's connect....!</strong>
+            </h4>
+            <br>
+            <form action="#" method="post">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <input type="text" name="subject" placeholder="Subject" required>
+                <textarea name="message" placeholder="Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+
+<P>-</P>
+
+<!--contact end-->
+
+
+  
+    <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer has-bg-image" style="background-image: url('./assets/images/footer-bg.png')">
+    <div class="container">
+      <div class="footer-top">
+        <br>
+
+
+        <div class="footer-link-box">
+
+      
+        </div>
+
+   
+        <div class="footer-link-box">
+          <ul class="footer-list">
+            <li>
+              <h2 style="font-size: 45px; font-weight: bold; word-spacing: 6px; font-family: fantasy; color: rgb(186, 123, 8);">Jack Sparrow</h2>
+              
+              <br>
+              <img src="./assets/images/logo-footer.jpg" width="250" height="250">
+            </li>
+          </ul>
+
+
+          <ul class="footer-list">
+
+
+            <li>
+              <p class="footer-list-title">Quick Links</p>
+            </li>
+
+            <li>
+              <a href="./shop.html" class="footer-link has-before">Product Page</a>
+            </li>
+
+            <li>
+              <a href="./gallery.html" class="footer-link has-before">Gallery</a>
+            </li>
+
+
+            <li>
+              <a href="./services.html" class="footer-link has-before">Our Services</a>
+            </li>
+
+            <li>
+              <a href="./about.html" class="footer-link has-before">Meet Our Team</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link has-before">Our Portfolio</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link has-before">Need A Career?</a>
+            </li>
+
+            <li>
+              <a href="#" class="footer-link has-before">News & Blog</a>
+            </li>
+
+          </ul>
+
+
+
+          <ul class="footer-list">
+
+            <li>
+              <ul class="footer-list">
+
+                <li>
+                  <p class="footer-list-title">Contact Us</p>
+                </li>
+    
+                <li class="footer-list-item">
+                  <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+    
+                  <address class="contact-link">
+                    No. 74/47 ,3rd Miles post, Trincomalee , Sri Lanka.
+                  </address>
+                </li>
+    
+                <li class="footer-list-item">
+                  <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+    
+                  <a href="tel:+0123456789" class="contact-link">026 2221005</a>
+                </li>
+    
+                <li class="footer-list-item">
+                  <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+    
+                  <span class="contact-link">Monday - Saturday, 08.00 am - 09.00 pm</span>
+                </li>
+    
+                <li class="footer-list-item">
+                  <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+    
+                  <a href="mailto:support@gmail.com" class="contact-link">jacksparrowbarber@gmail.com</a>
+                </li>
+    
+              </ul>
+    
+            </li>
+          </ul>
+
+          <ul>
+            <div class="map">
+              <p class="footer-list-title">map</p>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3944.9550089967306!2d81.21522297449508!3d8.600318295553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3afbbd00126fdef9%3A0x489f1765361dc48b!2sDiveji&#39;s%20Home!5e0!3m2!1sta!2slk!4v1732952162701!5m2!1sta!2slk" 
+              width="300" height="180" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+            </div>
+
+          </ul>
+
+          </ul>
+
+          
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; 2024 <a href="#" class="copyright-link">Yuvarajah Divejikan</a>. All Rights Reserved.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
