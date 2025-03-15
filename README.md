@@ -64,7 +64,7 @@ For inquiries or collaborations, reach out via:
 
 🔗 LinkedIn: https://www.linkedin.com/in/divejikan-yuvarajah-401526279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
 
-📂 GitHub: divejikan-yuvarajah
+📂 GitHub: https://github.com/divejikan-yuvarajah
 
 
 🔥 If you like this project, don’t forget to ⭐ star the repository!
