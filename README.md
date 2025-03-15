@@ -59,8 +59,11 @@ Contributions are welcome! To contribute:
 
 💬 Contact
 For inquiries or collaborations, reach out via:
+
 📧 Email: divejuthe23@gmail.com
+
 🔗 LinkedIn: https://www.linkedin.com/in/divejikan-yuvarajah-401526279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+
 📂 GitHub: divejikan-yuvarajah
 
 
