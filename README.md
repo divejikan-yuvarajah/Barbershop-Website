@@ -1,7 +1,7 @@
 # 💈 Jack Sparrow - The Barber 💈  
 _A modern and stylish business website for a local barbershop._
 
-assets/Screenshot 2025-03-15 184213.png
+
 
 ## 🚀 About the Project  
 Jack Sparrow - The Barber is a **fully responsive** and interactive front-end website built to enhance the traditional barbershop experience. It features **online appointment booking, an e-commerce store, a barber academy, and a dynamic UI** to attract and engage users.  
