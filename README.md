@@ -35,4 +35,40 @@ Follow these steps to run the project locally:
 
 1. Clone the repository  
    ```sh
-   git clone https://github.com/divejikan-yuvarajah/Barbershop-Website.git
+    git clone https://github.com/divejikan-yuvarajah/Barbershop-Website.git
+   
+2. Navigate to the project folder
+   cd barber-shop
+
+3. Open index.html in your browser
+
+
+📌 Usage
+ 1. Visit the website to book appointments and explore services
+ 2. Browse the shop section to purchase grooming products
+ 3. Learn more about barbering through the Barber Academy
+
+🤝 Contributing
+Contributions are welcome! To contribute:
+
+1. Fork the repository
+2. Create a new branch (git checkout -b feature-branch)
+3. Make your changes and commit (git commit -m "Added new feature")
+4. Push the changes (git push origin feature-branch)
+5. Open a pull request
+
+💬 Contact
+For inquiries or collaborations, reach out via:
+📧 Email: divejuthe23@gmail.com
+🔗 LinkedIn: https://www.linkedin.com/in/divejikan-yuvarajah-401526279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+📂 GitHub: divejikan-yuvarajah
+
+
+🔥 If you like this project, don’t forget to ⭐ star the repository!
+
+
+   
+
+
+
+
